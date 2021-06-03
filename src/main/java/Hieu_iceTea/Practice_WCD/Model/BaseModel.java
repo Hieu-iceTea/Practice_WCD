@@ -30,6 +30,19 @@ public class BaseModel {
         Id = id;
     }
 
+    public BaseModel(int id, Date createdAt, String createdBy, Date updatedAt, String updatedBy, int version, Boolean deleted) {
+        initializeSystemValue();
+
+        Id = id;
+
+        CreatedAt = createdAt;
+        CreatedBy = createdBy;
+        UpdatedAt = updatedAt;
+        UpdatedBy = updatedBy;
+        Version = version;
+        Deleted = deleted;
+    }
+
     public int getId() {
         return Id;
     }
