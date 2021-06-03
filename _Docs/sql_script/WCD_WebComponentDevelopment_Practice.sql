@@ -48,33 +48,33 @@ CREATE TABLE IF NOT EXISTS `employee`
 # = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = #
 
 
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Đặng Kim Thi', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Teacher', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Nguyễn Đình Hiếu', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Nguyễn Đình Hiếu', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Nông Phan Mạnh Hùng', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Vũ Quang Huy', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Nguyễn Trung Anh', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Đỗ Thị Chan Hòa', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('Hà Văn Vũ', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Customer', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Staff C', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Staff B', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Staff A', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Admin Demo', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Admin', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
-INSERT INTO employee (full_name, birthday, address, position, department)
-VALUE ('CODEDY Host', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (15, 'Đặng Kim Thi', '1984-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Teacher', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (14, 'Nguyễn Đình Hiếu', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (13, 'Nguyễn Đình Hiếu', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (12, 'Nông Phan Mạnh Hùng', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (11, 'Vũ Quang Huy', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (10, 'Nguyễn Trung Anh', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (9, 'Đỗ Thị Chan Hòa', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (8, 'Hà Văn Vũ', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (7, 'CODEDY Customer', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (6, 'CODEDY Staff C', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (5, 'CODEDY Staff B', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (4, 'CODEDY Staff A', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (3, 'CODEDY Admin Demo', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (2, 'CODEDY Admin', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
+INSERT INTO employee (id, full_name, birthday, address, position, department)
+VALUE (1, 'CODEDY Host', '1996-08-08', '8, Ton That Thuyet, Ha Noi, Viet Nam', 'Student', 'FPT Aptech');
