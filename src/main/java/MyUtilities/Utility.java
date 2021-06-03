@@ -2,6 +2,7 @@ package MyUtilities;
 
 public class Utility {
     /**
+     * Hieu_iceTea <br>
      * Capitalize the first letter of a string <br>
      * http://attacomsian.com/blog/capitalize-first-letter-of-string-java
      *
@@ -17,6 +18,7 @@ public class Utility {
     }
 
     /**
+     * Hieu_iceTea <br>
      * Capitalize each word in String <br>
      * http://attacomsian.com/blog/capitalize-first-letter-of-string-java
      *
@@ -34,7 +36,14 @@ public class Utility {
         return capitalizeWord.trim();
     }
 
-    public static int[] stringToIntArray(String stringArray[]) {
+    /**
+     * Hieu_iceTea <br>
+     * String To Int Array <br>
+     *
+     * @param stringArray
+     * @return
+     */
+    public static int[] stringToIntArray(String[] stringArray) {
         int size = stringArray.length;
         int[] intArray = new int[size];
         for (int i = 0; i < size; i++) {

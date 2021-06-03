@@ -1,4 +1,4 @@
-package Hieu_iceTea.Practice_WCD.Controller;
+package Hieu_iceTea.Practice_WCD.Controller.Employee;
 
 import Hieu_iceTea.Practice_WCD.Model.Employee;
 import jakarta.servlet.ServletException;

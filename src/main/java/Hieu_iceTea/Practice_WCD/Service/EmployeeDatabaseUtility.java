@@ -18,7 +18,7 @@ public class EmployeeDatabaseUtility {
     }
 
     //region - Query SQL Methods -
-    public List<Employee> all() throws Exception {
+    /*public List<Employee> all() throws Exception {
 
         List<Employee> items = new ArrayList<>();
 
@@ -52,9 +52,9 @@ public class EmployeeDatabaseUtility {
             // close JDBC objects
             close(connection, statement, resultSet);
         }
-    }
+    }*/
 
-    public Employee find(int id) throws Exception {
+    /*public Employee find(int id) throws Exception {
         Employee item = null;
 
         Connection connection = null;
@@ -89,7 +89,7 @@ public class EmployeeDatabaseUtility {
             // clean up JDBC objects
             close(connection, preparedStatement, resultSet);
         }
-    }
+    }*/
 
     public void create(Employee item) throws Exception {
         Connection connection = null;

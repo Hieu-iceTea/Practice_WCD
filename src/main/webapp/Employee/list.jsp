@@ -57,7 +57,7 @@
                 <div class="col-sm-6">
                     <a href="employee/create" class="btn btn-success"><i
                             class="material-icons">&#xE147;</i> <span>Add New Employee</span></a>
-                    <a href="javascript:deleteSelectedItem()" class="btn btn-danger"
+                    <a href="javascript:deleteSelectedItem()" class="btn btn-danger" style="display: none"
                        onclick="return confirm('Are you sure delete all selected item?')">
                         <i class="material-icons">&#xE15C;</i>
                         <span>Delete Selected Item</span>
@@ -68,7 +68,7 @@
 
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" name="search" value="${param.search}"
-                   placeholder="Search">
+                   placeholder="Search by name">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="padding: 5px 5px; line-height: 0">
                 <i class="material-icons" data-toggle="tooltip" style="padding: 0; margin: 0"
                    title="Search">&#xe8b6;</i>
@@ -101,7 +101,7 @@
                     <th>Position</th>
                     <th>Department</th>
 
-                    <th style="width: 150px">Actions</th>
+                    <th style="width: 150px; display: none">Actions</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -123,7 +123,7 @@
                         <td>${employee.position}</td>
                         <td>${employee.department}</td>
 
-                        <td>
+                        <td style="display: none">
                             <a href="employee/#show/?id=${employee.id}" class="view">
                                 <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i>
                             </a>
@@ -144,7 +144,7 @@
                 </tbody>
             </table>
 
-            <div class="clearfix">
+            <div class="clearfix" style="display: none">
                 <div class="hint-text">Showing <b>5</b> out of <b>25</b> entries</div>
                 <ul class="pagination">
                     <li class="page-item disabled"><a href="employee/#page-previous">Previous</a></li>

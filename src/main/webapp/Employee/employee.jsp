@@ -79,13 +79,13 @@
                     </div>
 
                     <div class="form-group">
-                        <label>Birthday:</label>
+                        <label>Birthday <span style="font-weight: normal">(Do not choose the future day)</span>:</label>
                         <input class="form-control max-date-today" type="date" max="" name="birthday" required>
                     </div>
 
                     <div class="form-group">
                         <label>Address:</label>
-                        <textarea class="form-control" name="address" required></textarea>
+                        <textarea class="form-control" name="address" rows="3" required></textarea>
                     </div>
 
                     <div class="form-group">
